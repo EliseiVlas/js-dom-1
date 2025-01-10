@@ -17,3 +17,6 @@ h1{
 .close{
     display: none;
 }
+.active{
+    display: block;
+}

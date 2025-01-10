@@ -15,13 +15,14 @@ button.addEventListener("click" ,
     // BONUS
         if(button.innerHTML === "Accendi"){
             button.innerHTML = "Spegni" 
-            foto.classList.add("close");
-            foto2.classList.remove("close")
+            // foto.classList.add("close");
+            // foto2.classList.remove("close")
         }else{
             button.innerHTML = "Accendi"
-            foto.classList.remove("close");
-            foto2.classList.add("close")
+            // foto.classList.remove("close");
+            // foto2.classList.add("close")
         }
-
+        foto.classList.toggle("close")
+        foto2.classList.toggle("active")
     }
 );
