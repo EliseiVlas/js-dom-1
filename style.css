@@ -9,14 +9,22 @@ h1{
     justify-content: center;
     width: 170px;
     height: 50px;
-    background-color: cadetblue;
+    background-color: greenyellow;
     border-radius: 20px;
     cursor: pointer;
 }
-
+.color{
+    background-color: red;
+}
 .close{
     display: none;
 }
 .active{
     display: block;
+}
+#immagine{
+    padding-left: 41px;
+}
+#immagine2{
+    padding-right: 41px;
 }
