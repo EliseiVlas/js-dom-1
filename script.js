@@ -13,12 +13,12 @@ button.addEventListener("click" ,
         // button.innerHTML = "Accendi"
 
     // BONUS
-        if(button.innerHTML === "Spegni"){
-            button.innerHTML = "Accendi" 
+        if(button.innerHTML === "Accendi"){
+            button.innerHTML = "Spegni" 
             foto.classList.add("close");
             foto2.classList.remove("close")
         }else{
-            button.innerHTML = "Spegni"
+            button.innerHTML = "Accendi"
             foto.classList.remove("close");
             foto2.classList.add("close")
         }
