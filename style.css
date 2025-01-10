@@ -11,4 +11,12 @@ h1{
     height: 50px;
     background-color: cadetblue;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+.close{
+    display: none;
+}
+.active{
+    display: block;
 }
